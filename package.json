@@ -1,0 +1,7 @@
+{
+  "name": "cvc-corporate-intelligence",
+  "private": true,
+  "dependencies": {
+    "openai": "^4.77.0"
+  }
+}
