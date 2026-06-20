@@ -91,7 +91,9 @@ def patch_kb_loader(html: str) -> str:
 function decodeKbPayload() {
   const b64 = document.getElementById('kb-data-b64');
   if (b64 && b64.textContent.trim()) {
-    return atob(b64.textContent.trim());
+    const bin = atob(b64.textContent.trim());
+    const bytes = Uint8Array.from(bin, c => c.charCodeAt(0));
+    return new TextDecoder('utf-8').decode(bytes);
   }
   const legacy = document.getElementById('kb-data');
   if (legacy) return legacy.textContent;
