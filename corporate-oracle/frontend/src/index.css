@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+.light body,
+.light #root {
+  @apply bg-gray-50 text-gray-900;
+}
+
+.dark body,
+.dark #root {
+  @apply bg-surface-3 text-gray-100;
+}
+
+.prose-chat p {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+}
+
+.prose-chat ul {
+  margin: 0.5rem 0;
+  padding-left: 1.25rem;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-600 rounded;
+}

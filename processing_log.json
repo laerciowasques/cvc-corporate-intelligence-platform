@@ -1,0 +1,78 @@
+{
+  "inicio": "2026-06-18T02:47:30.823386",
+  "fim": "2026-06-18T02:47:41.682457",
+  "duracao_segundos": 10.86,
+  "fases_executadas": [
+    {
+      "fase": "1_inventario",
+      "status": "ok",
+      "total_arquivos": 509,
+      "duplicatas": 217,
+      "timestamp": "2026-06-18T02:47:36.012382"
+    },
+    {
+      "fase": "2_extracao_releases",
+      "status": "ok",
+      "periodos_extraidos": 50,
+      "com_mensagem_admin": 13,
+      "timestamp": "2026-06-18T02:47:36.012382"
+    },
+    {
+      "fase": "2_extracao_financeira",
+      "indicadores": 50,
+      "releases_integrados": 50,
+      "status": "ok"
+    },
+    {
+      "fase": "7_sintese_executiva",
+      "status": "ok",
+      "periodos_com_sintese": 53,
+      "periodos_com_insights_executivos": 53,
+      "timestamp": "2026-06-18T02:47:36.978822"
+    },
+    {
+      "fase": "8_governanca_historica",
+      "status": "ok",
+      "ceos": 4,
+      "cfos": 6,
+      "eventos": 42,
+      "timestamp": "2026-06-18T02:47:39.564980"
+    },
+    {
+      "fase": "9_inteligencia_documental",
+      "status": "ok",
+      "documentos_enriquecidos": 458,
+      "top_temas": 5,
+      "timestamp": "2026-06-18T02:47:41.429441"
+    },
+    {
+      "fase": "5_consolidacao",
+      "status": "ok",
+      "knowledge_base": "C:\\Users\\laerc\\Documents\\0-Treinamentos e Pós\\0- Pós Graduação\\4 - Pós Graduação IA & Estratégia\\1- Projetos (aulas)\\10 - Base de Conhecimento CVC\\knowledge_base.json",
+      "tamanho_bytes": 6618051,
+      "elapsed_seconds": 10.86
+    },
+    {
+      "fase": "6_inteligencia",
+      "insights_executivos_periodos": 53,
+      "narrativa_capitulos": 5,
+      "riscos": 60,
+      "oportunidades": 40,
+      "search_index_entries": 768,
+      "status": "ok"
+    }
+  ],
+  "resumo": {
+    "documentos_inventariados": 509,
+    "duplicatas": 217,
+    "indicadores": 50,
+    "resultados_trimestrais": 53,
+    "earnings_calls": 42,
+    "entrada_busca": 768
+  },
+  "observacoes": [
+    "Releases PDF: 50 trimestres com texto extraído (releases_extracted.json).",
+    "Transcrições completas de teleconferências pendentes — 41 arquivos MP3 catalogados.",
+    "Métricas EBITDA/dívida detalhadas parseadas dos releases quando presentes nas tabelas."
+  ]
+}
